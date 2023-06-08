@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct wwdc2023_and_beyondApp: App {
+struct WWDC2023App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

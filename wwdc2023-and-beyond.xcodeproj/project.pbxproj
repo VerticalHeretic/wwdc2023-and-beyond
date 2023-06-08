@@ -11,6 +11,7 @@
 		A0C9D45D2A31E81F00F95BFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C9D45C2A31E81F00F95BFD /* ContentView.swift */; };
 		A0C9D45F2A31E82000F95BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C9D45E2A31E82000F95BFD /* Assets.xcassets */; };
 		A0C9D4632A31E82000F95BFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C9D4622A31E82000F95BFD /* Preview Assets.xcassets */; };
+		A0C9D46A2A31EADD00F95BFD /* WorkoutKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C9D4692A31EADD00F95BFD /* WorkoutKitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A0C9D45E2A31E82000F95BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0C9D4602A31E82000F95BFD /* wwdc2023_and_beyond.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wwdc2023_and_beyond.entitlements; sourceTree = "<group>"; };
 		A0C9D4622A31E82000F95BFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0C9D4692A31EADD00F95BFD /* WorkoutKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutKitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		A0C9D4592A31E81F00F95BFD /* wwdc2023-and-beyond */ = {
 			isa = PBXGroup;
 			children = (
+				A0C9D46B2A31EAE100F95BFD /* WWDC Features */,
 				A0C9D45A2A31E81F00F95BFD /* wwdc2023_and_beyondApp.swift */,
 				A0C9D45C2A31E81F00F95BFD /* ContentView.swift */,
 				A0C9D45E2A31E82000F95BFD /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				A0C9D4622A31E82000F95BFD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0C9D46B2A31EAE100F95BFD /* WWDC Features */ = {
+			isa = PBXGroup;
+			children = (
+				A0C9D4692A31EADD00F95BFD /* WorkoutKitView.swift */,
+			);
+			path = "WWDC Features";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0C9D46A2A31EADD00F95BFD /* WorkoutKitView.swift in Sources */,
 				A0C9D45D2A31E81F00F95BFD /* ContentView.swift in Sources */,
 				A0C9D45B2A31E81F00F95BFD /* wwdc2023_and_beyondApp.swift in Sources */,
 			);
@@ -287,7 +299,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.verticalcoding.wwdc2023-and-beyond";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -325,7 +337,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.verticalcoding.wwdc2023-and-beyond";
 				PRODUCT_NAME = "$(TARGET_NAME)";
