@@ -189,7 +189,7 @@ struct WorkoutKitView: View {
                     let workoutComposition = viewModel.cyclingWorkoutComposition
 
                     Task {
-                        try await workoutComposition.presentPreview()
+                        try await workoutComposition?.presentPreview()
                     }
                 }
 

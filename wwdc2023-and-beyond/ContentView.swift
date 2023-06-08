@@ -10,8 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            NavigationLink("Workout Kit 🏋🏻") {
-                WorkoutKitView()
+            List {
+                NavigationLink("Workout Kit 🏋🏻") {
+                    WorkoutKitView()
+                }
+                
+                NavigationLink("Observation") {
+                    ObservationView()
+                }
             }
         }
     }

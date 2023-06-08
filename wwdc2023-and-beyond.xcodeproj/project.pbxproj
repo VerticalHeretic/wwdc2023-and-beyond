@@ -12,6 +12,7 @@
 		A0C9D45F2A31E82000F95BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C9D45E2A31E82000F95BFD /* Assets.xcassets */; };
 		A0C9D4632A31E82000F95BFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C9D4622A31E82000F95BFD /* Preview Assets.xcassets */; };
 		A0C9D46A2A31EADD00F95BFD /* WorkoutKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C9D4692A31EADD00F95BFD /* WorkoutKitView.swift */; };
+		A0C9D46D2A3230BC00F95BFD /* ObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C9D46C2A3230BC00F95BFD /* ObservationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A0C9D4602A31E82000F95BFD /* wwdc2023_and_beyond.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wwdc2023_and_beyond.entitlements; sourceTree = "<group>"; };
 		A0C9D4622A31E82000F95BFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0C9D4692A31EADD00F95BFD /* WorkoutKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutKitView.swift; sourceTree = "<group>"; };
+		A0C9D46C2A3230BC00F95BFD /* ObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				A0C9D4692A31EADD00F95BFD /* WorkoutKitView.swift */,
+				A0C9D46C2A3230BC00F95BFD /* ObservationView.swift */,
 			);
 			path = "WWDC Features";
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				A0C9D46A2A31EADD00F95BFD /* WorkoutKitView.swift in Sources */,
 				A0C9D45D2A31E81F00F95BFD /* ContentView.swift in Sources */,
 				A0C9D45B2A31E81F00F95BFD /* wwdc2023_and_beyondApp.swift in Sources */,
+				A0C9D46D2A3230BC00F95BFD /* ObservationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
